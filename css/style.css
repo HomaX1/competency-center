@@ -1,0 +1,54 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@font-face{
+    font-family: 'PTSans-bold';
+    src: url('MyWebFont/ptsans_bold_macroman/PTS75F-webfont.eot');
+    src: url('WebFont.eot?iefix') format('eot'),
+    url('WebFont.woff') format('woff'),
+    url('WebFont.ttf') format('truetype'),
+    url('WebFont.svg#webfont') format('svg');
+}
+
+header {
+    width: 1024px;
+    margin: auto;
+    background-color: #ffffff;
+}
+
+.logo {
+    margin: 14px 0 10px 0;
+}
+
+nav {
+    float: right;
+    margin-top: 35px;
+    right: 209px;
+}
+
+nav a {
+    text-transform: capitalize;
+    text-decoration: none;
+    font-family: 'PTSans-bold', sans-serif;
+    size: 20px;
+    color: #778081;
+    line: 130%;
+    margin-left: 28px;
+}
+
+nav a.active {
+    border-bottom: 2px solid #c62a31;
+    margin-top: 6px;
+    color: #454545;
+}
+
+nav a:hover {
+    border-bottom: 2px solid #c62a31;
+    color: #454545;
+}
+
+.banner img{
+    width: 100%;
+}

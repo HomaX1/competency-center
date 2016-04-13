@@ -6,10 +6,73 @@
 @font-face{
     font-family: 'PTSans-bold';
     src: url('MyWebFont/ptsans_bold_macroman/PTS75F-webfont.eot');
-    src: url('WebFont.eot?iefix') format('eot'),
-    url('WebFont.woff') format('woff'),
-    url('WebFont.ttf') format('truetype'),
-    url('WebFont.svg#webfont') format('svg');
+    src: url('MyWebFont/ptsans_bold_macroman/PTS75F-webfont.eot?iefix') format('eot'),
+    url('MyWebFont/ptsans_bold_macroman/PTS75F-webfont.woff') format('woff'),
+    url('MyWebFont/ptsans_bold_macroman/PTS75F-webfont.ttf') format('truetype'),
+    url('MyWebFont/ptsans_bold_macroman/PTS75F-webfont.svg#webfont') format('svg');
+}
+
+@font-face{
+    font-family: 'PTSans-bolditalic';
+    src: url('MyWebFont/ptsans_bolditalic_macroman/PTS76F-webfont.eot');
+    src: url('MyWebFont/ptsans_bolditalic_macroman/PTS76F-webfont.eot?iefix') format('eot'),
+    url('MyWebFont/ptsans_bolditalic_macroman/PTS76F-webfont.woff') format('woff'),
+    url('MyWebFont/ptsans_bolditalic_macroman/PTS76F-webfont.ttf') format('truetype'),
+    url('MyWebFont/ptsans_bolditalic_macroman/PTS76F-webfont.svg#webfont') format('svg');
+}
+
+@font-face{
+    font-family: 'PTSans-italic';
+    src: url('MyWebFont/ptsans_italic_macroman/PTS56F-webfont.eot');
+    src: url('MyWebFont/ptsans_italic_macroman/PTS56F-webfont.eot?iefix') format('eot'),
+    url('MyWebFont/ptsans_italic_macroman/PTS56F-webfont.woff') format('woff'),
+    url('MyWebFont/ptsans_italic_macroman/PTS56F-webfont.ttf') format('truetype'),
+    url('MyWebFont/ptsans_italic_macroman/PTS56F-webfont.svg#webfont') format('svg');
+}
+
+@font-face{
+    font-family: 'PTSans-regular';
+    src: url('MyWebFont/ptsans_regular_macroman/PTS55F-webfont.eot');
+    src: url('MyWebFont/ptsans_regular_macroman/PTS55F-webfont.eot?iefix') format('eot'),
+    url('MyWebFont/ptsans_regular_macroman/PTS55F-webfont.woff') format('woff'),
+    url('MyWebFont/ptsans_regular_macroman/PTS55F-webfont.ttf') format('truetype'),
+    url('MyWebFont/ptsans_regular_macroman/PTS55F-webfont.svg#webfont') format('svg');
+}
+
+@font-face{
+    font-family: 'PTSanscaption-bold';
+    src: url('MyWebFont/ptsanscaption_bold_macroman/PTC75F-webfont.eot');
+    src: url('MyWebFont/ptsanscaption_bold_macroman/PTC75F-webfont.eot?iefix') format('eot'),
+    url('MyWebFont/ptsanscaption_bold_macroman/PTC75F-webfont.woff') format('woff'),
+    url('MyWebFont/ptsanscaption_bold_macroman/PTC75F-webfont.ttf') format('truetype'),
+    url('MyWebFont/ptsanscaption_bold_macroman/PTC75F-webfont.svg#webfont') format('svg');
+}
+
+@font-face{
+    font-family: 'PTSanscaption-regular';
+    src: url('MyWebFont/ptsanscaption_regular_macroman/PTC55F-webfont.eot');
+    src: url('MyWebFont/ptsanscaption_regular_macroman/PTC55F-webfont.eot?iefix') format('eot'),
+    url('MyWebFont/ptsanscaption_regular_macroman/PTC55F-webfont.woff') format('woff'),
+    url('MyWebFont/ptsanscaption_regular_macroman/PTC55F-webfont.ttf') format('truetype'),
+    url('MyWebFont/ptsanscaption_regular_macroman/PTC55F-webfont.svg#webfont') format('svg');
+}
+
+@font-face{
+    font-family: 'PTSansnarrow-bold';
+    src: url('MyWebFont/ptsansnarrow_bold_macroman/PTN77F-webfont.eot');
+    src: url('MyWebFont/ptsansnarrow_bold_macroman/PTN77F-webfont.eot?iefix') format('eot'),
+    url('MyWebFont/ptsansnarrow_bold_macroman/PTN77F-webfont.woff') format('woff'),
+    url('MyWebFont/ptsansnarrow_bold_macroman/PTN77F-webfont.ttf') format('truetype'),
+    url('MyWebFont/ptsansnarrow_bold_macroman/PTN77F-webfont.svg#webfont') format('svg');
+}
+
+@font-face{
+    font-family: 'PTSansnarrow-regular';
+    src: url('MyWebFont/ptsansnarrow_regular_macroman/PTN57F-webfont.eot');
+    src: url('MyWebFont/ptsansnarrow_regular_macroman/PTN57F-webfont.eot?iefix') format('eot'),
+    url('MyWebFont/ptsansnarrow_regular_macroman/PTN57F-webfont.woff') format('woff'),
+    url('MyWebFont/ptsansnarrow_regular_macroman/PTN57F-webfont.ttf') format('truetype'),
+    url('MyWebFont/ptsansnarrow_regular_macroman/PTN57F-webfont.svg#webfont') format('svg');
 }
 
 header {
@@ -34,7 +97,7 @@ nav a {
     font-family: 'PTSans-bold', sans-serif;
     size: 20px;
     color: #778081;
-    line: 130%;
+    line-height: 130%;
     margin-left: 28px;
 }
 
@@ -49,6 +112,12 @@ nav a:hover {
     color: #454545;
 }
 
-.banner img{
-    width: 100%;
+.banner{
+    height: 520px;
+    background: url("../img/banner_desktop_hd.png") no-repeat;
+    background-size: cover;
+}
+
+.slideShow {
+
 }

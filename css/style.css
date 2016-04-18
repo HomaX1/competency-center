@@ -126,11 +126,13 @@ nav a:hover {
 .arrowL {
     margin: 238px 0 0 18px;
     float: left;
+    cursor: pointer;
 }
 
 .arrowR {
     margin: 238px 21px 0 0;
     float: right;
+    cursor: pointer;
 }
 
 .clear {
@@ -219,7 +221,7 @@ nav a:hover {
 
 .texture {
     width: 100%;
-    height: 1329px;
+    height: 1198px;
     background-image: url("../img/textura.png");
 }
 
@@ -229,7 +231,7 @@ nav a:hover {
 }
 
 .news, .times, .members {
-    margin: 54px 0 51px 0;
+    margin: 55px 0 55px 0;
     overflow: hidden;
 }
 
@@ -239,14 +241,14 @@ h2 {
     font-size: 24px;
     color: #454545;
     line-height: 134%;
-    margin-bottom: 36px;
+    margin-bottom: 42px;
 }
 
 .news {
     float: left;
     margin-right: 50px;
     width: 304px;
-    height: 489px;
+    height: 495px;
 }
 
 .dates, ul li {
@@ -282,7 +284,7 @@ h2 {
     margin-right: 95px;
     margin-left: 20px;
     width: 297px;
-    height: 489px;
+    height: 495px;
 }
 
 
@@ -315,7 +317,7 @@ h2 {
 .members {
     float: left;
     width: 258px;
-    height: 489px;
+    height: 495px;
 }
 
 
@@ -369,6 +371,7 @@ h2 {
     width: 495px;
     height: 439px;
     overflow: hidden;
+    margin-bottom: 50px;
 }
 
 .mainDescription:last-child {
@@ -377,15 +380,83 @@ h2 {
 
 .image {
     float: left;
+    margin: 0 22px 49px 0;
 }
 
 .mainDescription:last-child .image {
     float: right;
+    margin: 0 0 49px 22px;
 }
 
 
 .names {
     margin-bottom: 35px;
+    font-family: PTSans-Regular, sans-serif;
+    font-size: 16px;
+    color: #c62a31;
+    line-height: 125%;
+}
+
+.mainDescription p {
+    margin-bottom: 20px;
+    font-family: PTSans-Regular, sans-serif;
+    font-size: 14px;
+    color: #778081;
+    line-height: 100%;
+}
+
+.icons {
+    width: 1024px;
+    margin: auto;
+}
+
+.mainsIcons {
+    width: 700px;
+    height: 45px;
+    margin-left: 165px;
+}
+
+.icon {
+    float: left;
+    margin-left: 88px;
+    cursor: pointer;
+}
+
+.icon:first-child {
+    margin-left: 0;
+}
+
+footer {
+    height: 120px;
+    background-color: #c62a31;
+}
+
+.footerWrap {
+    width: 1024px;
+    margin: auto;
+}
+
+.footerWrap p {
+    float: left;
+    font-family: Lintel-Regular, sans-serif;
+    font-size: 13px;
+    color: #ffffff;
+    line-height: 115%;
+    margin-top: 53px;
+}
+
+.copyright {
+    margin-right: 182px;
+}
+
+.help, .about {
+    margin-right: 27px;
+    cursor: pointer;
+}
+
+.contact {
+    margin-right: 230px;
+    cursor: pointer;
 }
 
 

@@ -123,24 +123,11 @@ nav a:hover {
     margin: auto;
 }
 
-.icons {
-    position: relative;
-}
-
-.icons li {
-    list-style: none;
-    position: absolute;
-}
-
-.icons li, .icons a {
-    display: block;
-}
-
 .left {
     height: 48px;
     float: left;
     width: 48px;
-    background: url("../img/sprite.gif") 0 6px no-repeat;
+    background: url("../img/sprite2.png") 0 6px no-repeat;
     top: 238px;
     left: 18px;
 }
@@ -148,7 +135,7 @@ nav a:hover {
 .right {
     height: 48px;
     width: 48px;
-    background: url("../img/sprite.gif") 0 6px no-repeat;
+    background: url("../img/sprite2.png") 0 6px no-repeat;
     top: 238px;
     right: 21px;
 }
@@ -188,11 +175,11 @@ nav a:hover {
     text-transform: capitalize;
 }
 
-.calendar {
+.newsDate__calendar {
     height: 40px;
     float: left;
     width: 35px;
-    background: url("../img/sprite.gif") 0 -265px no-repeat;
+    background: url("../img/sprite2.png") 0 -265px no-repeat;
     top: 0;
     right: 23px;
     bottom: 28px;
@@ -464,10 +451,16 @@ footer {
     font-size: 13px;
     color: #ffffff;
     line-height: 115%;
+    overflow: hidden;
 }
 
 .footerWrap p {
     margin-top: 53px;
+}
+
+.references {
+    width: 235px;
+    margin: 53px auto 0;
 }
 
 .copyright {

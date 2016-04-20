@@ -94,7 +94,7 @@ nav {
 nav a {
     text-transform: capitalize;
     text-decoration: none;
-    font-family: 'PTSans-bold', sans-serif;
+    font-family: PTSans-Regular, sans-serif;
     font-size: 20px;
     color: #778081;
     line-height: 130%;
@@ -123,16 +123,34 @@ nav a:hover {
     margin: auto;
 }
 
-.arrowL {
-    margin: 238px 0 0 18px;
-    float: left;
-    cursor: pointer;
+.icons {
+    position: relative;
 }
 
-.arrowR {
-    margin: 238px 21px 0 0;
-    float: right;
-    cursor: pointer;
+.icons li {
+    list-style: none;
+    position: absolute;
+}
+
+.icons li, .icons a {
+    display: block;
+}
+
+.left {
+    height: 48px;
+    float: left;
+    width: 48px;
+    background: url("../img/sprite.gif") 0 6px no-repeat;
+    top: 238px;
+    left: 18px;
+}
+
+.right {
+    height: 48px;
+    width: 48px;
+    background: url("../img/sprite.gif") 0 6px no-repeat;
+    top: 238px;
+    right: 21px;
 }
 
 .clear {
@@ -171,9 +189,16 @@ nav a:hover {
 }
 
 .calendar {
+    height: 40px;
     float: left;
-    margin: 0 23px 28px 15px;
+    width: 35px;
+    background: url("../img/sprite.gif") 0 -265px no-repeat;
+    top: 0;
+    right: 23px;
+    bottom: 28px;
+    left: 15px;
 }
+
 
 .date {
     float: left;
@@ -195,20 +220,21 @@ nav a:hover {
     line-height: 136%;
     border-radius: 3px;
     background-color: #c62a31;
-    padding: 14px 23px;
+    padding: 11px 24px;
 }
 
 .squares {
     margin: 85px 0 0 475px;
 }
 
-.squareActive {
+.square_active {
     width: 8px;
     height: 8px;
     border: 1px solid #808080;
     float: left;
     margin-left: 10px;
     background-color: #808080;
+    margin-top: 0;
 }
 
 .square {
@@ -222,7 +248,7 @@ nav a:hover {
 .texture {
     width: 100%;
     height: 1198px;
-    background-image: url("../img/textura.png");
+    background: url("../img/texturaM.png") repeat;
 }
 
 .lists {
@@ -289,7 +315,7 @@ h2 {
 
 
 .times ul li {
-    margin-bottom: 30px;
+    margin-bottom: 14px;
     color: #c62a31;
     font-size: 20px;
 }
@@ -333,8 +359,8 @@ h2 {
     border-radius: 50%;
     display: block;
     position: absolute;
-    margin-top: -65px;
-    margin-left: -25px;
+    top: -5px;
+    left: -25px;
 }
 
 .members ol {
@@ -434,29 +460,27 @@ footer {
 .footerWrap {
     width: 1024px;
     margin: auto;
-}
-
-.footerWrap p {
-    float: left;
     font-family: Lintel-Regular, sans-serif;
     font-size: 13px;
     color: #ffffff;
     line-height: 115%;
+}
+
+.footerWrap p {
     margin-top: 53px;
 }
 
 .copyright {
-    margin-right: 182px;
+    float: left;
+}
+
+.inEpam {
+    float: right;
 }
 
 .help, .about {
-    margin-right: 27px;
-    cursor: pointer;
+    margin-right: 26px;
 }
 
-.contact {
-    margin-right: 230px;
-    cursor: pointer;
-}
 
 

@@ -504,5 +504,9 @@ footer {
     margin-right: 26px;
 }
 
+.help, .about, .contact {
+    cursor: pointer;
+}
+
 
 

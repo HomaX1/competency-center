@@ -124,20 +124,21 @@ nav a:hover {
 }
 
 .left {
-    height: 48px;
     float: left;
-    width: 48px;
-    background: url("../img/sprite2.png") 0 6px no-repeat;
-    top: 238px;
-    left: 18px;
+    height: 47px;
+    width: 18px;
+    background: url("../img/sprite2.png") 0 -205px no-repeat;
+    margin: 233px 0 0 21px;
+    cursor: pointer;
 }
 
 .right {
-    height: 48px;
-    width: 48px;
-    background: url("../img/sprite2.png") 0 6px no-repeat;
-    top: 238px;
-    right: 21px;
+    float: right;
+    height: 47px;
+    width: 21px;
+    background: url("../img/sprite2.png") 0 -260px no-repeat;
+    margin-top: 233px;
+    cursor: pointer;
 }
 
 .clear {
@@ -176,23 +177,21 @@ nav a:hover {
 }
 
 .newsDate__calendar {
-    height: 40px;
+    height: 32px;
     float: left;
     width: 35px;
-    background: url("../img/sprite2.png") 0 -265px no-repeat;
-    top: 0;
-    right: 23px;
-    bottom: 28px;
-    left: 15px;
+    background: url("../img/sprite2.png") 0 -316px no-repeat;
+    margin-left: 15px;
 }
 
 
-.date {
+.newsDate .date {
     float: left;
     font-family: PTSans-Regular,sans-serif;
     font-size: 20px;
     color: #ffffff;
     line-height: 130%;
+    margin-left: 30px;
 }
 
 .newsDate a {
@@ -200,7 +199,7 @@ nav a:hover {
     text-transform: uppercase;
     float: left;
     margin-top: -10px;
-    margin-left: 67px;
+    margin-left: 40px;
     font-family: PTSans-Regular,sans-serif;
     font-size: 14px;
     color: #ffffff;
@@ -425,18 +424,48 @@ h2 {
 
 .mainsIcons {
     width: 700px;
-    height: 45px;
     margin-left: 165px;
 }
 
-.icon {
+.mainsIcons a {
     float: left;
-    margin-left: 88px;
-    cursor: pointer;
+    height: 41px;
 }
 
-.icon:first-child {
+.facebook {
+    width: 42px;
+    background: url("../img/sprite2.png") 0 -164px no-repeat;
     margin-left: 0;
+}
+
+.twitter {
+    width: 42px;
+    background: url("../img/sprite2.png") 0 0 no-repeat;
+    margin-left: 88px;
+}
+
+.linkedIn {
+    width: 42px;
+    background: url("../img/sprite2.png") 0 -41px no-repeat;
+    margin-left: 88px;
+}
+
+.instagram {
+    width: 42px;
+    background: url("../img/sprite2.png") 0 -82px no-repeat;
+    margin-left: 88px;
+}
+
+.google {
+    width: 42px;
+    background: url("../img/sprite2.png") 0 -123px no-repeat;
+    margin-left: 88px;
+}
+
+.youtube {
+    width: 42px;
+    background: url("../img/sprite2.png") 0 -357px no-repeat;
+    margin-left: 88px;
 }
 
 footer {

@@ -88,7 +88,6 @@ header {
 nav {
     float: right;
     margin-top: 35px;
-    right: 209px;
 }
 
 nav a {
@@ -508,5 +507,23 @@ footer {
     cursor: pointer;
 }
 
+
+@media (min-width: 768px) and (max-width: 979px) {
+
+    .logo {
+        margin-left: 30px;
+    }
+
+    nav {
+        margin-right: 30px;
+    }
+
+    .banner {
+        height: 490px;
+        background: url("../img/banner_tablet.png") no-repeat;
+        background-size: cover;
+    }
+
+}
 
 

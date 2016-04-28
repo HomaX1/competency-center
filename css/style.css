@@ -75,6 +75,10 @@
     url('MyWebFont/ptsansnarrow_regular_macroman/PTN57F-webfont.svg#webfont') format('svg');
 }
 
+.navMobile {
+    display: none;
+}
+
 header {
     width: 1024px;
     margin: auto;
@@ -519,6 +523,10 @@ footer {
 
 @media (min-width: 768px) and (max-width: 1024px) {
 
+    .navMobile {
+        display: none;
+    }
+
     header {
         width: 710px;
         margin: auto;
@@ -635,6 +643,40 @@ footer {
 
 
 @media (min-width: 320px) and (max-width: 480px) {
+
+
+    .navMobile {
+        position: fixed;
+        right: 0;
+        display: block;
+        width: 160px;
+        height: 100%;
+        background-color: rgba(198, 42, 49, 0.9);
+    }
+
+    .navMobile a {
+        float: right;
+        text-transform: capitalize;
+        text-decoration: none;
+        font-family: PTSans-Regular, sans-serif;
+        font-size: 20px;
+        line-height: 130%;
+        color: #ffffff;
+        margin-right: 30px;
+        margin-bottom: 30px;
+    }
+
+    .cross {
+        width: 26px;
+        height: 24px;
+        background: url("../img/sprite_mobile.png") 0 -252px no-repeat;
+        margin: 33px 30px 56px auto;
+        cursor: pointer;
+    }
+
+    .navMobile .active {
+        color: #ffa4a4;
+    }
 
     header {
         width: 282px;
@@ -835,7 +877,15 @@ footer {
         margin-top: 25px;
         float: none;
         margin-bottom: 25px;
+        position: relative;
+        bottom: 40px;
     }
+
+    .inEpam {
+        position: relative;
+        top: 35px;
+    }
+
 
 }
 
